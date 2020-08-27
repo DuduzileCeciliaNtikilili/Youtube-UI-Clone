@@ -11,6 +11,18 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(3, 3, 3);
+}
+
+h4 {
+    font-size: 14px;
+    margin-left: 15px;
+    color: rgb(96, 96, 96);
+}
+
 hr {
     height: 1px;
     background-color: var(--color-grey);
@@ -172,4 +184,4 @@ body {
     text-decoration: none;
     color: rgb(96, 96, 96);
     font-size: 14px;
-}bn
+}
