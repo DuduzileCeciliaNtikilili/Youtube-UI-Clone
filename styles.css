@@ -29,43 +29,48 @@ hr {
     border: none;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-family: Roboto;
+}
+
+i {
+    font-style: normal;
 }
 
 .meterial-icoins {
     color: rgb(96, 96, 96);
 }
 
-.menuBar {
+.searchBar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 15px;
     align-content: center;
     height: 70px;
 }
 
-.menuBar .logo {
-    display: flex;
-    align-items: center;
-
+.i  {
+        padding: 0 7.5px;
 }
 
-.menuBar .logo img {
+.searchBar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
     width: 100px;
     margin-left: 15px;
 }
 
-.menuBar i {
-    padding: 0 7px;
-}
-
-.menuBar .search form {
+.search form {
     border: 1px solid #ddd;
     height: 35px;
     margin: 0;
     padding: 0;
 }    
 
-.menuBar .search input {
+.search input {
     width: 500px;
     padding: 0;
     margin: 0;
@@ -74,7 +79,7 @@ body {
     height: 100%;
 }
 
-.menuBar .search button {
+.search button {
     padding: 0;
     margin: 0;
     height: 100%;
@@ -88,13 +93,13 @@ body {
     overflow: hidden;
 }
 
-.mainBody .categories {
+.categories {
     width: 230px;
     background-color: white;
     overflow: scroll;
 }
 
-.mainBody .categories .categoriesSection {
+.categoriesSection {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -102,31 +107,31 @@ body {
     margin-top: 15px;
 }
 
-.mainBody .categories .categoriesSection .category {
+.category {
     display: flex;
     align-items: center;
     padding: 12px 25px;
 }
 
-.mainBody .categories .categoriesSection .category .active {
+.category .active {
    color: red;
 }   
 
-.mainBody .categories .categoriesSection .category span {
+.category span {
     margin-left: 15px;
 } 
 
-.mainBody .categories .categoriesSection .category:active {
+.category:active {
     background: var(--color-grey-dark);
 }    
 
-.mainBody .categories .categoriesSection .category:hover {
+.category:hover {
     background-color: var(--color-grey);
     cursor:pointer;
 }
 
 .videos {
-    background: var(--color-bg);
+    background: var(--color-greybg);
     width: 100%;
     height: 100%;
     padding: 15px 25px;
@@ -134,7 +139,7 @@ body {
     overflow-y: scroll;
 }
 
-.videos .videosGrid {
+.videosGrid {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -170,12 +175,12 @@ body {
     margin-top: 10px;
 }
 
-.details .title {
+.title {
     display: flex;
     flex-direction: column;
 }
 
-.details .title h3 {
+.title h3 {
     color: rgb(3, 3, 3);
     font-size: 14px;
 }
