@@ -2,39 +2,41 @@
 <html lang="en">
 
     <head>
-      <meta charset="UIF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-      <link rel="stylesheet" href="styles.css" />
+      <meta charset="UIF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="styles.css"/>
       <title>Youtube UI Clone</title>
     </head>
     <body>
 
-      <div class="SearchBar"> 
-        <div class="logo">
-            <i class="material-icons">Menu</i>
-            <img src="https://www.youtube.com/about/static/downloads/youtube_full_color_light_logo.zip?cache=76c20e8"
+        <header class="main-header">  
+            <div class="SearchBar"> 
+            <div class="logo">
+                <i class="material-icons">Menu</i>
+                <img src="https://www.youtube.com/about/static/downloads/youtube_full_color_light_logo.zip?cache=76c20e8"
                 alt="" />
-        </div> 
-        <div class="search">
-            <form action="">
-                <input type="text">
-                <button><i>Search</i></button>
-            </form>
-        </div>
-        <div class="icones">
-            <i class="meterial-icons">upload</i>
-            <i class="meterial-icons">apps</i>
-            <i class="meterial-icons">notifications</i>
-            <i class="meterial-icoins">userProfile</i>
-        </div>
+                <p>YouTube</p>    
+            </div> 
+            <div class="search">
+                <form action="">
+                    <input type="text" id="search-bar">
+                    <button id="Search-button"><i class="fas fa search"></i></button>
+                </form>
+            </div>
+            <div class="icones">
+                <i class="meterial-icons">upload</i>
+                <i class="meterial-icons">apps</i>
+                <i class="meterial-icons">notifications</i>
+                <i class="meterial-icoins">userProfile</i>
+            </div>
+        </header>    
         <div class="mainBody">
-          <div class="categories">
-            <div class="categoriesSection">
-              <span class="category active_span">
-                        <i>class="meterial-icons">library />
-                          H
-                        </i>  
+            <div class="categories">
+                <div class="categoriesSection">
+                    <span class="category active_span">
+                        <i>class="meterial-icons">library>H</i>  
                         <span>Home</span>
                     </span>
                     <span class="category">
@@ -42,8 +44,8 @@
                         <span>Trending</span>
                     </span>
                     <span class="category">
-                       <i>class="meterial-icons">play_arrow</i>
-                       <span>Subscriptions</span>
+                        <i>class="meterial-icons">play_arrow</i>
+                        <span>Subscriptions</span>
                     </span>
                 </div>
                 <div class="categoriesSection">
@@ -118,63 +120,78 @@
                     <i>class="meterial-icons">account_circle</i>
                     <span>Academind</span>
                 </span>
-            </div>
-        </div>    
-        <div class="videos">
-            <h1>Recommandend</h1>
+            </div>    
+            <div class="videos">
+                <h1>Recommandend</h1>
+            </div>    
             <div class="videoGrid">
-              <div class="video">
-                <div class="thumbnail">
-                    <img src="https://images.unsplash.com/photo-1593642703013-5a3b53c965f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80" alt="">
-                </div>
-                <div class="details">
-                  <div class="author">
-                    <img src="https://images.unsplash.com/photo-1598377706489-bb127e4ce363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
-                </div>
-                <div class="videos">
-                    <h1>Recommandend</h1>
-                    <div class="videoGrid">
-                      <div class="video">
-                        <div class="thumbnail">
-                            <img src="https://images.unsplash.com/photo-1593642703013-5a3b53c965f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80" alt="">
-                        </div>
-                        <div class="details">
-                          <div class="author">
-                            <img src="https://images.unsplash.com/photo-1598377706489-bb127e4ce363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
-                        </div>
-                        <div class="videos">
-                            <h1>Recommandend</h1>
-                            <div class="videoGrid">
-                              <div class="video">
-                                <div class="thumbnail">
-                                    <img src="https://images.unsplash.com/photo-1593642703013-5a3b53c965f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80" alt="">
-                                </div>
-                                <div class="details">
-                                  <div class="author">
-                                    <img src="https://images.unsplash.com/photo-1598377706489-bb127e4ce363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
-                                </div>
-                                <div class="videos">
-                                    <h1>Recommandend</h1>
-                                    <div class="videoGrid">
-                                      <div class="video">
-                                        <div class="thumbnail">
-                                            <img src="https://images.unsplash.com/photo-1593642703013-5a3b53c965f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80" alt="">
-                                        </div>
-                                        <div class="details">
-                                          <div class="author">
-                                            <img src="https://images.unsplash.com/photo-1598377706489-bb127e4ce363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
-                                        </div>
-                                        <div class="title">
-                                          <h3>How to become a beast Zaio dev?</h3>
-                                          <a href="">Zaio</a>
-                                          <span>1000 views</span>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>       
-                        </div>
-                    </div>
-                </div>            
+            </div>    
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1593642703013-5a3b53c965f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80" alt="">
+            </div>
+            <div class="details">
+            </div>
+            <div class="author">
+                <img src="https://images.unsplash.com/photo-1598377706489-bb127e4ce363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+            </div>
+            <div class="title">
+                <h3>How to become a beast Zaio dev?</h3>
+                    <a href="">Zaio</a>
+                    <span>1000 views</span>
+            </div>        
+            <div class="videos">
+                <h1>Recommandend</h1>
+            </div>    
+            <div class="videoGrid">
+            </div>    
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1593642703013-5a3b53c965f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80" alt="">
+            </div>
+            <div class="details">
+            </div>
+            <div class="author">
+                <img src="https://images.unsplash.com/photo-1598377706489-bb127e4ce363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+            </div>
+            <div class="title">
+                <h3>How to become a beast Zaio dev?</h3>
+                    <a href="">Zaio</a>
+                    <span>1000 views</span>
+            </div>        
+            <div class="videos">
+                <h1>Recommandend</h1>
+            </div>    
+            <div class="videoGrid">
+            </div>    
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1593642703013-5a3b53c965f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80" alt="">
+            </div>
+            <div class="details">
+            </div>
+            <div class="author">
+                <img src="https://images.unsplash.com/photo-1598377706489-bb127e4ce363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+            </div>
+            <div class="title">
+                <h3>How to become a beast Zaio dev?</h3>
+                    <a href="">Zaio</a>
+                    <span>1000 views</span>
+            </div>        
+            <div class="videos">
+                <h1>Recommandend</h1>
+            </div>    
+            <div class="videoGrid">
+            </div>    
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1593642703013-5a3b53c965f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=625&q=80" alt="">
+            </div>
+            <div class="details">
+            </div>
+            <div class="author">
+                <img src="https://images.unsplash.com/photo-1598377706489-bb127e4ce363?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80">
+            </div>
+            <div class="title">
+                <h3>How to become a beast Zaio dev?</h3>
+                    <a href="">Zaio</a>
+                    <span>1000 views</span>
             </div>
         </div>
     </body>
